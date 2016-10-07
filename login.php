@@ -42,7 +42,7 @@
         {
             try
             {
-		include("db_predential.php");
+		include("/functions/db_predential.php");
 			
 		$conn = new PDO("mysql:host=$servername;dbname=$dbname", $dusername, $dpassword);
 			

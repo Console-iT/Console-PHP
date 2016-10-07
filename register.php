@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
     <title>注册新账户 - Console PHP</title>
-    <link href="src/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="/src/css/main.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     <?php
@@ -70,7 +70,7 @@
         {
             try
             {
-                include("db_predential.php");
+                include("/functions/db_predential.php");
             
                 $conn = new PDO("mysql:host=$servername;dbname=$dbname", $dusername, $dpassword);
                 
