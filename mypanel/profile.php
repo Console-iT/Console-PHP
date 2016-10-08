@@ -6,6 +6,7 @@
     $fullname = $myprofile["fullName"];
     $email = $myprofile["email"];   
     
+    $gender = $myprofile['gender'];
     $birthday = strtotime($myprofile["dateOfBirth"]);
     $typeId = $myprofile["typeIdCard"];
     $numberId = $myprofile["numberIdCard"];

@@ -55,3 +55,22 @@ function getSchoolType($i)
             return "未指定";
     }
 }
+
+function getSchoolState($i)
+{
+    switch($i)
+    {
+        case 1:
+            return "等待录取";
+        case 2:
+            return "社团成员";
+        case 3:
+            return "已退休"; 
+        case 4:
+            return "被取消成员资格";  
+        case 5:
+            return "已自行退出社团";
+        default:
+            return "未加入";
+    }
+}

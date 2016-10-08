@@ -15,6 +15,10 @@ body {
   margin-right:auto;
 }
 
+td {
+    padding-bottom: 24px;
+}
+
 table.main {
     text-align: left; 
     border-width: 0px; 
@@ -39,4 +43,18 @@ td.subjects30 {
 
 td.option {
     vertical-align: top;
+}
+
+iframe {
+    border-width: 0px;
+    width:100%;
+    height: 750px;
+}
+
+iframe.editschool {
+    height: 196px;
+}
+
+iframe.school {
+    height: 245px;
 }
